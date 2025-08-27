@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>رزومه علی مهری</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- بوت‌استرپ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+  <!-- فونت شبنم -->
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.css" rel="stylesheet">
+
+  
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#hero">رزومه من</a>
+
+    <!-- دکمه منوی موبایل -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="تغییر منو">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- لینک‌های منو -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#hero">خانه</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">درباره من</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">مهارت‌ها</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">نمونه کارها</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">تماس با من</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero">
+  <!-- ویدیو بک‌گراند -->
+  <video autoplay muted loop>
+    <source src="videos/large2.mp4" type="video/mp4">
+    مرورگر شما ویدیو را پشتیبانی نمی‌کند.
+  </video>
+
+  <div class="container">
+    <img src="img/prof.jpg" alt="عکس پروفایل علی مهری">
+    <h1>علی مهری</h1>
+    <p>مهندس نرم‌افزار | توسعه‌دهنده وب و برنامه‌نویس</p>
+    <a href="#contact" class="btn btn-outline-light btn-lg">📞 تماس با من</a>
+    <a href="#" class="btn btn-light btn-lg">📂 دانلود رزومه</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef);">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- عکس پروفایل با افکت -->
+      <div class="col-md-4 text-center mb-4 mb-md-0" data-aos="fade-left">
+        <div class="position-relative d-inline-block">
+          <img src="img/prof.jpg" alt="علی مهری" 
+               class="img-fluid rounded-circle shadow-lg border border-5 border-light" 
+               style="width: 250px; height: 250px; object-fit: cover;">
+          <!-- حلقه گرادیان دور عکس -->
+          <div class="position-absolute top-50 start-50 translate-middle rounded-circle" 
+               style="width: 280px; height: 280px; background: linear-gradient(135deg, #31cb2688, #0bc66262); z-index:-1; filter: blur(20px);">
+          </div>
+        </div>
+      </div>
+      
+      <!-- متن معرفی -->
+      <div class="col-md-8" data-aos="fade-right">
+        <h2 class="fw-bold mb-3 text-primary">👨‍💻 درباره من</h2>
+        <p class="lead">
+          سلام! من <strong>علی مهری</strong> هستم، مهندس نرم‌افزار و توسعه‌دهنده وب.  
+          تخصص من طراحی وب‌سایت‌های مدرن با استفاده از 
+          <span class="text-success fw-bold">Bootstrap</span> و 
+          <span class="text-success fw-bold">Django</span> هست.
+        </p>
+        <p>
+          به شدت علاقه‌مند به یادگیری تکنولوژی‌های روز و ساخت پروژه‌های کاربردی هستم.  
+          هدفم اینه که سایت‌هایی بسازم که هم زیبا باشن، هم سریع و کاربرپسند.
+        </p>
+
+        <!-- آیکون مهارت‌ها -->
+        <div class="mt-4">
+          <span class="badge bg-primary me-2 p-2">HTML</span>
+          <span class="badge bg-success me-2 p-2">CSS</span>
+          <span class="badge bg-warning text-dark me-2 p-2">JavaScript</span>
+          <span class="badge bg-dark me-2 p-2">Django</span>
+          <span class="badge bg-info text-dark me-2 p-2">Bootstrap</span>
+        </div>
+
+        <a href="#projects" class="btn btn-outline-primary mt-4">📂 مشاهده نمونه کارها</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AOS Animation -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200,  // مدت زمان انیمیشن
+    offset: 150,     // فاصله تا شروع انیمیشن
+    once: true       // فقط یکبار اجرا شود
+  });
+</script>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5" style="background: #f9f9f9;">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="fw-bold text-primary">💡 مهارت‌های من</h2>
+      <p class="text-muted">تکنولوژی‌ها و ابزارهایی که در طراحی و توسعه وب به کار می‌برم</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 mb-4" data-aos="fade-right">
+        <h5 class="fw-bold">HTML</h5>
+        <div class="progress" style="height: 20px;">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;">90%</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4" data-aos="fade-left">
+        <h5 class="fw-bold">CSS</h5>
+        <div class="progress" style="height: 20px;">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;">85%</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4" data-aos="fade-right">
+        <h5 class="fw-bold">JavaScript</h5>
+        <div class="progress" style="height: 20px;">
+          <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 70%;">70%</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4" data-aos="fade-left">
+        <h5 class="fw-bold">Bootstrap</h5>
+        <div class="progress" style="height: 20px;">
+          <div class="progress-bar bg-info text-dark" role="progressbar" style="width: 80%;">80%</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4" data-aos="fade-right">
+        <h5 class="fw-bold">Python</h5>
+        <div class="progress" style="height: 20px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 75%;">75%</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4" data-aos="fade-left">
+        <h5 class="fw-bold">Django</h5>
+        <div class="progress" style="height: 20px;">
+          <div class="progress-bar bg-dark" role="progressbar" style="width: 65%;">65%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AOS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // سرعت انیمیشن (ms)
+    once: true      // فقط یک بار اجرا شه
+  });
+</script>
+<!-- Projects Section -->
+<section id="projects" class="py-5" style="background: linear-gradient(135deg, #e3f2fd, #ffffff);">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="fw-bold text-primary">📂 نمونه کارها</h2>
+      <p class="text-muted">چند پروژه برجسته که من تا حالا انجام دادم</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- پروژه اول -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card position-relative overflow-hidden rounded shadow-lg">
+          <img src="img/project/1.jpg" class="img-fluid w-100" alt="پروژه 1">
+          <div class="overlay d-flex flex-column justify-content-center align-items-center text-center p-3">
+            <h5 class="text-white fw-bold">وب‌سایت سورنا پرداز</h5>
+            <p class="text-light">فروشگاه آنلاین با Django و Bootstrap</p>
+            <a href="#" class="btn btn-outline-light mt-2">مشاهده پروژه</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- پروژه دوم -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card position-relative overflow-hidden rounded shadow-lg">
+          <img src="img/project/2.jpg" class="img-fluid w-100" alt="پروژه 2">
+          <div class="overlay d-flex flex-column justify-content-center align-items-center text-center p-3">
+            <h5 class="text-white fw-bold">پنل مدیریت سفارشات</h5>
+            <p class="text-light">داشبورد حرفه‌ای با امکانات کامل مدیریت</p>
+            <a href="#" class="btn btn-outline-light mt-2">مشاهده پروژه</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- پروژه سوم -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-card position-relative overflow-hidden rounded shadow-lg">
+          <img src="img/project/3.jpg" class="img-fluid w-100" alt="پروژه 3">
+          <div class="overlay d-flex flex-column justify-content-center align-items-center text-center p-3">
+            <h5 class="text-white fw-bold">وب‌سایت رزومه</h5>
+            <p class="text-light">این رزومه آنلاین که در حال مشاهده هستید</p>
+            <a href="#" class="btn btn-outline-light mt-2">مشاهده پروژه</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-5" style="background: linear-gradient(135deg, #ffffff, #e3f2fd);">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="fw-bold text-primary">📬 تماس با من</h2>
+      <p class="text-muted">می‌توانید از طریق فرم زیر یا شبکه‌های اجتماعی با من در ارتباط باشید</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
+        <form class="shadow-lg p-4 rounded bg-light">
+          <div class="mb-3">
+            <label for="name" class="form-label">نام شما</label>
+            <input type="text" class="form-control" id="name" placeholder="نام خود را وارد کنید">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">ایمیل</label>
+            <input type="email" class="form-control" id="email" placeholder="ایمیل خود را وارد کنید">
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">موضوع</label>
+            <input type="text" class="form-control" id="subject" placeholder="موضوع پیام">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">پیام</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="پیام خود را بنویسید"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">ارسال پیام</button>
+        </form>
+
+        <div class="text-center mt-4">
+          <p class="mb-2">📧 ایمیل: <a href="mailto:ali@example.com">alimehri716@gmail.com</a></p>
+          <p class="mb-0">📱 تلفن: 3018-876-0902</p>
+          <div class="mt-3">
+            <a href="#" class="me-2 text-primary fs-4"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="me-2 text-primary fs-4"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="me-2 text-primary fs-4"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+<!-- بوت‌استرپ JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

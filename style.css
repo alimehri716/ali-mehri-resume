@@ -1,0 +1,113 @@
+ body {
+      font-family: 'Shabnam', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.4rem;
+      color: #0d47a1 !important;
+    }
+    .nav-link {
+      font-size: 1.05rem;
+      transition: color 0.3s;
+    }
+    .nav-link:hover {
+      color: #0d47a1;
+    }
+
+    /* Hero */
+    #hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    #hero video {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    #hero .container {
+      z-index: 1;
+    }
+    #hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
+    #hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    #hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    #hero .btn {
+      padding: 10px 30px;
+      font-size: 1.1rem;
+      border-radius: 30px;
+    }
+
+    /* ریسپانسیو */
+    @media(max-width:768px){
+      #hero h1 { font-size: 2rem; }
+      #hero p { font-size: 1rem; }
+      .nav-link { font-size: 1rem; }
+    }
+    .project-card {
+  cursor: pointer;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.project-card:hover {
+  transform: scale(1.05) rotateZ(1deg);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+.project-card img {
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.project-card:hover img {
+  transform: scale(1.1);
+}
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.project-card:hover .overlay {
+  opacity: 1;
+}
+.overlay h5, .overlay p {
+  margin: 0;
+}
+#contact form {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+#contact form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+#contact a {
+  transition: color 0.3s;
+}
+#contact a:hover {
+  color: #0d47a1;
+}
